@@ -8,9 +8,9 @@ import underline from "../assets/underline.svg";
 const Hero = () => {
   return (
     <section className="py-16 bg-[#f7f7f7] relative overflow-hidden">
-      <img src={halfCircle} className="hidden md:block absolute right-20 top-40 w-24"/>
-      <img src={squiggleRed} className="hidden md:block absolute left-0 top-[35%] w-13"/>
-      <img src={squiggleBlack} className="hidden md:block absolute left-10 top-[35%] w-15"/>
+      <img src={halfCircle} className="absolute right-16 md:right-38 top-36 md:top-40 w-8 sm:w-16 md:w-20 opacity-80"/>
+      <img src={squiggleRed} className="absolute left-0 top-[52%] md:top-[35%] w-4 md:w-13"/>
+      <img src={squiggleBlack} className="absolute left-4 md:left-10 top-[52%] md:top-[35%] w-4 md:w-15"/>
       <Container>
         <div className="text-center max-w-5xl mx-auto">
           <h1 className="font-gerbil text-4xl sm:text-5xl md:text-7xl leading-[1.1] md:leading-[1.05] tracking-tight">

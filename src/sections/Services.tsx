@@ -24,7 +24,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="divide-y divide-gray-300">
+          <div className="border-y border-gray-300 divide-y divide-gray-300">
 
             <div className="py-6 flex items-center justify-between group">
               <p className="text-[0.75rem] md:text-[1.15rem] text-gray-500 w-[25%] md:w-[20%] mr-2 md:mr-0">

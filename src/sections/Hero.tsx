@@ -1,21 +1,38 @@
 import Container from "../components/Container";
+import squiggleBlack from "../assets/squiggle-black.svg";
+import squiggleRed from "../assets/squiggle-red.svg";
+import halfCircle from "../assets/half-circle.svg";
+import image from "../assets/image.png";
+import underline from "../assets/underline.svg";
 
 const Hero = () => {
   return (
-    <section className="py-16">
+    <section className="py-16 bg-[#f7f7f7] relative overflow-hidden">
+      <img src={halfCircle} className="hidden md:block absolute right-20 top-40 w-24"/>
+      <img src={squiggleRed} className="hidden md:block absolute left-0 top-[35%] w-13"/>
+      <img src={squiggleBlack} className="hidden md:block absolute left-10 top-[35%] w-15"/>
       <Container>
-        <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
-            The thinkers and <br />doers were changing <br />the status quo with
+        <div className="text-center max-w-5xl mx-auto">
+          <h1 className="font-gerbil text-4xl sm:text-5xl md:text-7xl leading-[1.1] md:leading-[1.05] tracking-tight">
+            The{" "}
+            <span className="relative inline-block">
+              thinkers
+              <img src={underline} className="absolute left-0 -bottom-2 md:-bottom-4 w-[90%] md:w-full pointer-events-none"/>
+            </span>{" "}and <br />doers were{" "}ch
+            <span className="bg-pink-300/50 px-2 py-1 rounded-full">anging</span> <br />the{" "}
+            <span className="bg-green-300/50 px-3 py-1 rounded-full">status</span> Quo with
           </h1>
 
-          <p className="mt-6 text-gray-600 max-w-xl mx-auto">
+          <p className="text-[0.75rem] mt-6 text-gray-500 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
             We are a team of strategists, designers, communicators, researchers.
             Together, we believe that progress only happens when you refuse to
             play things safe.
           </p>
         </div>
       </Container>
+      <div className="relative mt-16 h-[200px] md:h-[260px]">
+        <img src={image} className="absolute left-1/2 -translate-x-1/2 w-[380px] sm:w-[6500px] md:w-[1300px] max-w-none" />
+      </div>
     </section>
   );
 };

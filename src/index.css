@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Gerbil";
+  src: url("/fonts/gerbil.otf") format("opentype");
+  font-display: swap;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-gerbil {
+  font-family: "Gerbil", sans-serif;
+}

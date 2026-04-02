@@ -9,7 +9,7 @@ import bgLine from "../assets/bg-line.png";
 const About = () => {
   return (
     <section className="py-20 bg-[#f7f7f7] relative overflow-hidden">
-      <img src={bgLine} className="absolute right-0 top-[28%] w-[82%] opacity-80 pointer-events-none z-0"/>
+      <img src={bgLine} className="absolute md:right-0 top-[43%] md:top-[28%] w-full md:w-[82%] opacity-80 pointer-events-none z-0 "/>
       <Container>
         <div className="relative z-10">
         <div className="grid md:grid-cols-2 gap-10 items-center mb-20">
@@ -30,7 +30,7 @@ const About = () => {
               to play things safe.
             </p>
 
-            <div className="mt-6 flex items-center gap-2 text-sm">
+            <div className="mt-6 flex items-center gap-2 text-sm cursor-pointer">
               <span>Read more</span>
               <img src={arrow} className="w-25 pt-2"/>
             </div>
@@ -38,15 +38,15 @@ const About = () => {
 
           <div className="relative flex justify-center">
             <img src={topImage} className="w-[260px] z-1 sm:w-[320px] md:w-[380px] rounded-full object-cover" />
-            <div className="absolute right-2 top-[18%] z-0 w-30 h-30 bg-red-400 rotate-15 opacity-80"></div>
+            <div className="absolute right-2 top-[18%] z-0 w-20 md:w-30 h-20 md:h-30 bg-red-400 rotate-15 opacity-80"></div>
           </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="relative flex justify-center md:order-1 order-2">
-            <img src={triangle} className="absolute z-10 w-28 h-25 top-6 left-14"/>
+            <img src={triangle} className="absolute z-10 w-18 h-15 md:w-28 md:h-25 top-5 left-14"/>
             <img src={bottomImage} className=" w-[260px] sm:w-[320px] md:w-[380px] rounded-full object-cover z-20"/>
-            <img src={triangle} className="absolute w-28 h-25 bottom-3 right-14 z-30"/>
+            <img src={triangle} className="absolute w-18 h-15 md:w-28 md:h-25 bottom-3 right-14 z-30"/>
           </div>
 
           <div className="md:order-2 order-1">
@@ -67,7 +67,7 @@ const About = () => {
               brand, design digital, comms and social research.
             </p>
 
-            <div className="mt-6 flex items-center gap-2 text-sm">
+            <div className="mt-6 flex items-center gap-2 text-sm cursor-pointer">
               <span>Read more</span>
               <img src={arrow} className="w-25 pt-2"/>
             </div>

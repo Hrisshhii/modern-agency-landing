@@ -30,9 +30,9 @@ const About = () => {
               to play things safe.
             </p>
 
-            <div className="mt-6 flex items-center gap-2 text-sm cursor-pointer">
-              <span>Read more</span>
-              <img src={arrow} className="w-25 pt-2"/>
+            <div className="group mt-6 flex items-center gap-2 text-sm cursor-pointer">
+              <span className="group-hover:scale-110 transition duration-300">Read more</span>
+              <img src={arrow} className="w-25 pt-2 group-hover:scale-110 transition duration-300"/>
             </div>
           </div>
 
@@ -67,9 +67,9 @@ const About = () => {
               brand, design digital, comms and social research.
             </p>
 
-            <div className="mt-6 flex items-center gap-2 text-sm cursor-pointer">
-              <span>Read more</span>
-              <img src={arrow} className="w-25 pt-2"/>
+            <div className="group mt-6 flex items-center gap-2 text-sm cursor-pointer">
+              <span className="group-hover:scale-105 transition duration-300">Read more</span>
+              <img src={arrow} className="w-25 pt-2 group-hover:scale-105 transition duration-300"/>
             </div>
           </div>
 

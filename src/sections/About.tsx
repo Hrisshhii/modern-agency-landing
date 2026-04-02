@@ -26,13 +26,13 @@ const About = () => {
 
             <p className="mt-4 text-gray-600 max-w-md">
               We are a team of strategists, designers communicators, researchers.
-              Togeather, we belive that progress only happens when you refuse
+              Together, we believe that progress only happens when you refuse
               to play things safe.
             </p>
 
             <div className="group mt-6 flex items-center gap-2 text-sm cursor-pointer">
               <span className="group-hover:scale-110 transition duration-300">Read more</span>
-              <img src={arrow} className="w-25 pt-2 group-hover:scale-110 transition duration-300"/>
+              <img src={arrow} className="w-24 pt-2 group-hover:scale-110 transition duration-300"/>
             </div>
           </div>
 
@@ -69,7 +69,7 @@ const About = () => {
 
             <div className="group mt-6 flex items-center gap-2 text-sm cursor-pointer">
               <span className="group-hover:scale-105 transition duration-300">Read more</span>
-              <img src={arrow} className="w-25 pt-2 group-hover:scale-105 transition duration-300"/>
+              <img src={arrow} className="w-24 pt-2 group-hover:scale-105 transition duration-300"/>
             </div>
           </div>
 

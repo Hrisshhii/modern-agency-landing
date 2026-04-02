@@ -1,7 +1,12 @@
+import Hero from "./sections/Hero";
+import Navbar from "./sections/NavBar";
+
+
 function App() {
   return (
-    <div className="text-3xl font-bold text-center mt-10 text-blue-400">
-      Tailwind is working 🚀
+    <div className="bg-white text-black">
+      <Navbar />
+      <Hero />
     </div>
   );
 }

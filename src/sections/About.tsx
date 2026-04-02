@@ -8,7 +8,7 @@ import bgLine from "../assets/bg-line.png";
 
 const About = () => {
   return (
-    <section className="py-20 bg-[#f7f7f7] relative overflow-hidden">
+    <section className="py-5 md:py-20 bg-[#f7f7f7] relative overflow-hidden">
       <img src={bgLine} className="absolute md:right-0 top-[43%] md:top-[28%] w-full md:w-[82%] opacity-80 pointer-events-none z-0 "/>
       <Container>
         <div className="relative z-10">

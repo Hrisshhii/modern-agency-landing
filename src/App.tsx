@@ -1,3 +1,4 @@
+import About from "./sections/About";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/NavBar";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="bg-white text-black">
       <Navbar />
       <Hero />
+      <About />
     </div>
   );
 }

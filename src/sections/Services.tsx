@@ -6,9 +6,10 @@ import curve from "../assets/bg-line.png";
 const Services = () => {
   return (
     <section className="py-20 bg-[#f7f7f7] relative overflow-hidden">
+      <img src={curve} className="absolute right-[-28%] top-15 md:top-[-30%] w-[65%] opacity-80 pointer-events-none z-0"/>
       <Container>
         <div className="relative">
-          <div className="grid grid-cols-2 gap-10 items-start mb-16">
+          <div className="mb-16 max-w-xl">
             <div>
               <h2 className="font-gerbil text-3xl md:text-5xl leading-[1.3]">
                 What we{" "}
@@ -21,46 +22,42 @@ const Services = () => {
                 </span>{" "} you!
               </h2>
             </div>
-
-            <div className="relative">
-              <img src={curve} className="absolute w-full opacity-80"/>
-            </div>
           </div>
 
           <div className="divide-y divide-gray-300">
 
             <div className="py-6 flex items-center justify-between group">
-              <p className="text-xs text-gray-500 w-1/4">
+              <p className="text-xs text-gray-500 w-[25%]">
                 Office of multiple interest content
               </p>
-              <h3 className="font-gerbil text-lg md:text-3xl w-2/4">
-                Colaborative & partnership
+              <h3 className="font-gerbil text-lg md:text-3xl w-[50%]">
+                Collaborative & partnership
               </h3>
-              <div className="w-1/4 flex justify-end">
+              <div className="w-[25%] flex justify-end">
                 <img src={arrow} className="w-16 transition group-hover:translate-x-2"/>
               </div>
             </div>
 
             <div className="py-6 flex items-center justify-between group">
-              <p className="text-xs text-gray-500 w-1/4">
+              <p className="text-xs text-gray-500 w-[25%]">
                 The hanger US Air force digital experimental
               </p>
-              <h3 className="font-gerbil text-lg md:text-3xl w-2/4">
+              <h3 className="font-gerbil text-lg md:text-3xl w-[50%]">
                 We talk about our weight
               </h3>
-              <div className="w-1/4 flex justify-end">
+              <div className="w-[25%] flex justify-end">
                 <img src={arrow} className="w-16 transition group-hover:translate-x-2"/>
               </div>
             </div>
 
             <div className="py-6 flex items-center justify-between group">
-              <p className="text-xs text-gray-500 w-1/4">
+              <p className="text-xs text-gray-500 w-[25%]">
                 Delta faucet content, social, digital
               </p>
-              <h3 className="font-gerbil text-lg md:text-3xl w-2/4">
+              <h3 className="font-gerbil text-lg md:text-3xl w-[50%]">
                 Piloting digital confidence
               </h3>
-              <div className="w-1/4 flex justify-end">
+              <div className="w-[25%] flex justify-end">
                 <img src={arrow} className="w-16 transition group-hover:translate-x-2 transition duration-300"/>
               </div>
             </div>

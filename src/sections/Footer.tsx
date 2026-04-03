@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import shape from "../assets/shape.png";
+import upperArrow from "../assets/upperarrow.png";
 
 const linkClass="hover:text-black transition-colors duration-200";
 
@@ -9,7 +10,8 @@ const Footer = () => {
     <section className="bg-[#c7d8cc] py-20 relative overflow-hidden">
 
       <img src={shape} className="absolute right-[3%] md:right-[15%] top-30 md:top-[20%] w-8 md:w-28 pointer-events-none" />
-
+      <img src={upperArrow} className="absolute left-[41%] -translate-x-1/2 top-0 w-25 md:w-28 pointer-events-none"/>
+      <img src={upperArrow} className="absolute left-[50%] md:left-[45%] -translate-x-1/2 top-0 w-25 md:w-28 pointer-events-none"/>
       <Container>
         <div className="text-center">
           <h2 className="font-gerbil text-3xl md:text-6xl leading-tight mb-4">

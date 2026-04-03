@@ -2,7 +2,7 @@ import Container from "../components/Container";
 
 const Navbar = () => {
   return (
-    <nav className="py-6">
+    <nav className="py-6 bg-[#f7f7f7]">
       <Container>
         <div className="flex items-center justify-between">
 

@@ -20,7 +20,7 @@ const Footer = () => {
           <p className="text-gray-700 text-sm md:text-base mb-6">
             To make your stay special and even more memorable
           </p>
-          <button className="bg-black text-white px-6 py-3 rounded-full text-sm hover:scale-110 hover:opacity-80 transition duration-300 cursor-pointer">
+          <button className="bg-black text-white px-6 py-3 rounded-full text-sm hover:scale-110 hover:shadow-lg hover:opacity-80 transition duration-300 cursor-pointer">
             Subscribe Now
           </button>
 

@@ -1,31 +1,35 @@
-# Assignment UI
+# React Figma Assignment
 
-A responsive React web page built from a Figma design.
+A responsive React web page built from the provided Figma design.
 
-## Tech Stack
+## 🚀 Tech Stack
 
 * React (Vite + TypeScript)
-* Tailwind CSS v4
+* Tailwind CSS
+* Docker
 
-## Features
+## ✨ Features
 
 * Pixel-perfect UI based on Figma
 * Fully responsive (mobile, tablet, desktop)
-* Reusable components
-* Clean and structured code
+* Reusable components and clean structure
+* Subtle hover interactions
 
-## Setup
-
-```bash
-npm install
-npm run dev
-```
-
-## Build
+## 🐳 Run with Docker
 
 ```bash
-npm run build
-npm run preview
+docker build -t my-react-app .
+docker run -p 3000:3000 my-react-app
 ```
 
-## Docker (To be added)
+Then open: http://localhost:3000
+
+## 📁 Project Structure
+
+* `components/` → reusable UI components
+* `sections/` → page sections (Hero, About, Services, etc.)
+
+## 📌 Notes
+
+* Focused on accuracy, spacing, and responsiveness
+* Kept animations minimal to maintain performance and clarity

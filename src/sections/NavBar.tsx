@@ -19,8 +19,8 @@ const Navbar = () => {
           </div>
 
           <div className="cursor-pointer hover:scale-105 transition duration-300">
-            <div className="w-6 h-[2px] bg-black mb-1"></div>
-            <div className="w-6 h-[2px] bg-black"></div>
+            <div className="w-6 h-0.5 bg-black mb-1"></div>
+            <div className="w-6 h-0.5 bg-black"></div>
           </div>
 
         </div>

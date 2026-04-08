@@ -14,7 +14,7 @@ const About = () => {
         <div className="relative z-10">
         <div className="grid md:grid-cols-2 gap-10 items-center mb-20">
           <div>
-            <h2 className="font-gerbil text-2xl md:text-4xl leading-[1.5]">
+            <h2 className="font-gerbil text-2xl md:text-4xl leading-normal">
               <span className="relative inline-block">
                 Tomorrow 
                 <img src={underline} className="absolute left-0 -bottom-2 w-[90%] md:w-full pointer-events-none"/>
@@ -37,7 +37,7 @@ const About = () => {
           </div>
 
           <div className="relative flex justify-center">
-            <img src={topImage} className="w-[260px] z-1 sm:w-[320px] md:w-[380px] rounded-full object-cover" />
+            <img src={topImage} className="w-65 z-1 sm:w-[320px] md:w-95 rounded-full object-cover" />
             <div className="absolute right-2 top-[18%] z-0 w-20 md:w-30 h-20 md:h-30 bg-red-400 rotate-15 opacity-80"></div>
           </div>
         </div>
@@ -45,12 +45,12 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="relative flex justify-center md:order-1 order-2">
             <img src={triangle} className="absolute z-10 w-18 h-15 md:w-28 md:h-25 top-5 left-14"/>
-            <img src={bottomImage} className=" w-[260px] sm:w-[320px] md:w-[380px] rounded-full object-cover z-20"/>
+            <img src={bottomImage} className=" w-65 sm:w-[320px] md:w-95 rounded-full object-cover z-20"/>
             <img src={triangle} className="absolute w-18 h-15 md:w-28 md:h-25 bottom-3 right-14 z-30"/>
           </div>
 
           <div className="md:order-2 order-1">
-            <h2 className="font-gerbil text-2xl md:text-4xl leading-[1.5] z-20">
+            <h2 className="font-gerbil text-2xl md:text-4xl leading-normal z-20">
               <span className="bg-green-200 px-2 py-1 rounded-full">
                 See
               </span>{" "}how we can <br />

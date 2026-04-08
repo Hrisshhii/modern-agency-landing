@@ -30,8 +30,8 @@ const Hero = () => {
           </p>
         </div>
       </Container>
-      <div className="relative mt-16 h-[200px] md:h-[260px]">
-        <img src={image} className="absolute left-1/2 -translate-x-1/2 w-[380px] sm:w-[6500px] md:w-[1300px] max-w-none" />
+      <div className="relative mt-16 h-50 md:h-65">
+        <img src={image} className="absolute left-1/2 -translate-x-1/2 w-95 sm:w-1625 md:w-325 max-w-none" />
       </div>
     </section>
   );

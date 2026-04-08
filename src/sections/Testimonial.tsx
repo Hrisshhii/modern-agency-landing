@@ -5,7 +5,7 @@ import testimonialImg from "../assets/testimonal-img.png";
 const Testimonials = () => {
   return (
     <section className="py-24 bg-[#f7f7f7] relative overflow-hidden">
-      <img src={testimonialImg} className="absolute left-1/2 -translate-x-1/2 top-[10%] md:top-[20%] w-[90%] md:w-full max-w-[1200px] pointer-events-none z-0" />
+      <img src={testimonialImg} className="absolute left-1/2 -translate-x-1/2 top-[10%] md:top-[20%] w-[90%] md:w-full max-w-300 pointer-events-none z-0" />
 
       <Container>
         <div className="relative z-10 text-center">

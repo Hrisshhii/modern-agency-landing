@@ -5,11 +5,13 @@ import underline from "../assets/underline.svg";
 import arrow from "../assets/arrow.png";
 import triangle from "../assets/triangle.png";
 import bgLine from "../assets/bg-line.png";
+import shape from "../assets/blur.png";
 
 const About = () => {
   return (
     <section className="py-5 md:py-20 bg-[#f7f7f7] relative overflow-hidden">
       <img src={bgLine} className="absolute md:right-0 top-[43%] md:top-[28%] w-full md:w-[82%] opacity-80 pointer-events-none z-0 "/>
+      <img src={shape} className="absolute right-[5%] md:right-[35%] top-[12%] md:top-[-5%] w-[50%] md:w-[30%] pointer-events-none" />
       <Container>
         <div className="relative z-10">
         <div className="grid md:grid-cols-2 gap-10 items-center mb-20">

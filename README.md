@@ -2,6 +2,8 @@
 
 A responsive React web page built from the provided Figma design.
 
+## Demo: https://modern-agency-landing-chi.vercel.app/
+
 ## 🚀 Tech Stack
 
 * React (Vite + TypeScript)
